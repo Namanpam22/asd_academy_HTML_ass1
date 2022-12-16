@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="menu">
+      I
+    </div>
+    <aside class="show">
+      <h2>Tags</h2>
+      <hr>
+      <ul>
+        <li><a href="./pages/heading.html" target="_blank"><<code>h1</code>>-<<code>h6</code>></a></li>
+        <li><a href="./pages/paragraph.html" target="_blank"><<code>p</code>></a></li>
+        <li><a href="./pages/table.html" target="_blank"><<code>table</code>></a></li>
+        <li><a href="./pages/tr.html" target="_blank"><<code>tr</code>></a></li>
+        <li><a href="./pages/th.html" target="_blank"><<code>th</code>></a></li>
+        <li><a href="./pages/td.html" target="_blank"><<code>td</code>></a></li>
+        <li><a href="./pages/tc.html" target="_blank"><<code>tc</code>></a></li>
+        <li><a href="./pages/div.html" target="_blank"><<code>div</code>></a></li>
+        <li><a href="./pages/b.html" target="_blank"><<code>b</code>></a></li>
+        <li><a href="./pages/i.html" target="_blank"><<code>i</code>></a></li>
+        <li><a href="./pages/strong.html" target="_blank"><<code>strong</code>></a></li>
+        <li><a href="./pages/em.html" target="_blank"><<code>em</code>></a></li>
+        <li><a href="./pages/mark.html" target="_blank"><<code>mark</code>></a></li>
+        <li><a href="./pages/delete.html" target="_blank"><<code>delete</code>></a></li>
+        <li><a href="./pages/span.html" target="_blank"><<code>span</code>></a></li>
+        <li><a href="./pages/img.html" target="_blank"><<code>img</code>></a></li>
+        <li><a href="./pages/a.html" target="_blank"><<code>a</code>></a></li>
+        <li><a href="./pages/br.html" target="_blank"><<code>br</code>></a></li>
+        <li><a href="./pages/hr.html" target="_blank"><<code>hr</code>></a></li>
+        <li><a href="./pages/sub.html" target="_blank"><<code>sub</code>></a></li>
+        <li><a href="./pages/sup.html" target="_blank"><<code>sup</code>></a></li>
+        <li><a href="./pages/bdo.html" target="_blank"><<code>bdo</code>></a></li>
+      </ul>
+    </aside>
+    <main>
+      <div class="container">
+        <div class="heading">
+          <h1>HTML (Hyper Text Markup Language)</h1>
+        </div>
+        <div class="content">
+          <p>
+            HTML stands for Hyper Text Markup Language . HTML is the standard markup language for creating Web pages . HTML describes the structure of a Web page . HTML consists of a series of elements .	HTML elements tell the browser how to display the content .
+          </p>
+        </div>
+        <hr>
+        <div class="heading">
+          <h1>Version</h1>
+        </div>
+        <div class="content">
+          <p>
+            HTML5 Living Standard
+          </p>
+        </div>
+        <hr>
+        <div class="heading">
+          <h1>Uses Of HTML</h1>
+        </div>
+        <div class="content">
+          <ul class="uses_of_html">
+            <li>Structuring web pages</li>
+            <li>Navigating the internet</li>
+            <li>Embedding images and videos</li>
+            <li>Improving client-side data storage and offline capabilities</li>
+            <li>Game development</li>
+            <li>Interacting with native APIs</li>
+        </div>
+        <hr>
+        <div class="heading">
+          <h1>Example - Boilerplate</h1>
+        </div>
+        <div class="example">
+          <img src="./images/boiler-plate.png" alt="Boiler plate">
+        </div>
+      </div>
+    </main>
+  </body>
+  <script>
+   
+document.querySelector(".menu").onclick=function(){
+    document.querySelector(".show").classList.toggle("active")
+}
+  </script>
+</html>

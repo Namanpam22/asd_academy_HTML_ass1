@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.heading {
+  font-size: 2em;
+  margin-bottom: 0.5rem;
+  /* border: 2px solid red; */
+  background-color: #ffeacb;
+  /* background-color:#cb8e4f; */
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  margin-bottom: 0.5rem;
+  font-size: 1.5em;
+  /* border: 2px solid red; */
+  background-color:#cb8e4f;
+/* background-color: #ffeacb; */
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+  background-color: #dcd1c7;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  /* border: 2px solid red; */
+  /* background-color: blue; */
+}
+
+.code {
+  margin-bottom: 0.5rem;
+  /* border: 2px solid red; */
+}
+
+.run {
+  padding: 0.5rem;
+  font-size: 14px;
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn {
+  border: 2px solid black;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  /* border-radius: 25px; */
+}
+
+a {
+  text-decoration: none;
+}
+
+.next{
+  color:green;
+  border: 2px solid green;
+}
+
+.prev{
+  color:red;
+  border: 2px solid red;
+}
+
+.prev:hover {
+  background-color: red;
+  color:white;
+}
+
+.next:hover {
+  background-color: green;
+  color:white;
+}
+
+.output {
+  display: none;
+}
+
+.output.active {
+  /* border: 2px solid red; */
+  margin: 1rem;
+  display: block;
+}
+
+
+
+
